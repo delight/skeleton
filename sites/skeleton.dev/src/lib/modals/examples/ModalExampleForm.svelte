@@ -2,6 +2,7 @@
 	// Props
 	/** Exposes parent props to this component. */
 	export let parent: any;
+	$: console.log(parent);
 
 	// Stores
 	import { modalStore } from '@skeletonlabs/skeleton';

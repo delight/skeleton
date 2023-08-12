@@ -96,7 +96,7 @@
 	// Custom ---
 
 	function modalComponentForm(): void {
-		const c: ModalComponent = { ref: ModalExampleForm };
+		const c: ModalComponent = { ref: ModalExampleForm, props: { background: 'bg-red-500' } };
 		const modal: ModalSettings = {
 			type: 'component',
 			component: c,
